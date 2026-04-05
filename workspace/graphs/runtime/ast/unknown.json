@@ -1,75 +1,55 @@
 {
-"method": "<operator>.assignment",
-"id": 107374182418,
+"method": "printf",
+"id": 107374182403,
 "nodes": [
 {
-"id": 107374182418,
+"id": 107374182403,
 "label": "METHOD",
 "code": "<empty>",
 "line": -1,
 "column": -1
 },{
-"id": 111669149732,
+"id": 111669149696,
 "label": "METHOD_PARAMETER_IN",
 "code": "p1",
 "line": -1,
 "column": -1
 },{
-"id": 111669149733,
-"label": "METHOD_PARAMETER_IN",
-"code": "p2",
-"line": -1,
-"column": -1
-},{
-"id": 25769803798,
+"id": 25769803779,
 "label": "BLOCK",
 "code": "<empty>",
 "line": -1,
 "column": -1
 },{
-"id": 124554051602,
+"id": 124554051587,
 "label": "METHOD_RETURN",
 "code": "RET",
 "line": -1,
 "column": -1
 },{
-"id": 115964117028,
+"id": 115964116992,
 "label": "METHOD_PARAMETER_OUT",
 "code": "p1",
-"line": -1,
-"column": -1
-},{
-"id": 115964117029,
-"label": "METHOD_PARAMETER_OUT",
-"code": "p2",
 "line": -1,
 "column": -1
 }
 ],
 "edges": [
 {
-"source": 107374182418,
-"target": 111669149732,
+"source": 107374182403,
+"target": 111669149696,
 "type": "AST"
 },{
-"source": 107374182418,
-"target": 25769803798,
+"source": 107374182403,
+"target": 25769803779,
 "type": "AST"
 },{
-"source": 107374182418,
-"target": 115964117028,
+"source": 107374182403,
+"target": 115964116992,
 "type": "AST"
 },{
-"source": 107374182418,
-"target": 111669149733,
-"type": "AST"
-},{
-"source": 107374182418,
-"target": 124554051602,
-"type": "AST"
-},{
-"source": 107374182418,
-"target": 115964117029,
+"source": 107374182403,
+"target": 124554051587,
 "type": "AST"
 }
 ]

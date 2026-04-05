@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Executables
+*.exe
+fuzzing/executables/
+
+# Workspace outputs
+workspace/
+
+# Streamlit cache
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -3,6 +3,7 @@ from backend.run_analysis import run_joern_pipeline
 from backend.graph_loader import load_graph
 import networkx as nx
 import matplotlib.pyplot as plt
+from backend.compile_runtime import run_compile_pipeline
 
 st.set_page_config(page_title="CVD-MAX", layout="wide")
 
@@ -95,6 +96,7 @@ if check:
         with st.spinner("Running analysis..."):
             try:
                 run_joern_pipeline()
+                run_compile_pipeline()
                 st.session_state.analysis_done = True
                 st.session_state.saved = True
             except Exception as e:

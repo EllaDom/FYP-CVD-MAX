@@ -1,0 +1,188 @@
+{
+"method": "main",
+"id": 107374182402,
+"nodes": [
+{
+"id": 25769803777,
+"label": "BLOCK",
+"code": "{     char buf[1024];     fgets(buf, sizeof(buf), stdin);     target(0);     return 0; }",
+"line": 10,
+"column": 12
+},{
+"id": 30064771077,
+"label": "CALL",
+"code": "buf[1024]",
+"line": 11,
+"column": 10
+},{
+"id": 30064771079,
+"label": "CALL",
+"code": "fgets(buf, sizeof(buf), stdin)",
+"line": 12,
+"column": 5
+},{
+"id": 30064771081,
+"label": "CALL",
+"code": "target(0)",
+"line": 13,
+"column": 5
+},{
+"id": 141733920769,
+"label": "RETURN",
+"code": "return 0;",
+"line": 14,
+"column": 5
+},{
+"id": 68719476743,
+"label": "IDENTIFIER",
+"code": "buf",
+"line": 11,
+"column": 10
+},{
+"id": 30064771078,
+"label": "CALL",
+"code": "buf[1024]",
+"line": 11,
+"column": 10
+},{
+"id": 68719476745,
+"label": "IDENTIFIER",
+"code": "buf",
+"line": 12,
+"column": 11
+},{
+"id": 30064771080,
+"label": "CALL",
+"code": "sizeof(buf)",
+"line": 12,
+"column": 16
+},{
+"id": 68719476747,
+"label": "IDENTIFIER",
+"code": "<unknown> stdin",
+"line": 12,
+"column": 29
+},{
+"id": 90194313220,
+"label": "LITERAL",
+"code": "0",
+"line": 13,
+"column": 12
+},{
+"id": 90194313221,
+"label": "LITERAL",
+"code": "0",
+"line": 14,
+"column": 12
+},{
+"id": 68719476744,
+"label": "IDENTIFIER",
+"code": "char[1024]",
+"line": 11,
+"column": 10
+},{
+"id": 90194313219,
+"label": "LITERAL",
+"code": "1024",
+"line": 11,
+"column": 14
+},{
+"id": 68719476746,
+"label": "IDENTIFIER",
+"code": "buf",
+"line": 12,
+"column": 23
+}
+],
+"edges": [
+{
+"source": 30064771077,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 30064771079,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 30064771081,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 141733920769,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 68719476743,
+"target": 30064771077,
+"type": "REACHING_DEF"
+},{
+"source": 68719476743,
+"target": 68719476745,
+"type": "REACHING_DEF"
+},{
+"source": 30064771078,
+"target": 68719476743,
+"type": "REACHING_DEF"
+},{
+"source": 30064771078,
+"target": 30064771077,
+"type": "REACHING_DEF"
+},{
+"source": 30064771078,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 68719476745,
+"target": 30064771080,
+"type": "REACHING_DEF"
+},{
+"source": 68719476745,
+"target": 68719476747,
+"type": "REACHING_DEF"
+},{
+"source": 68719476745,
+"target": 30064771079,
+"type": "REACHING_DEF"
+},{
+"source": 68719476745,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 68719476747,
+"target": 68719476745,
+"type": "REACHING_DEF"
+},{
+"source": 68719476747,
+"target": 30064771080,
+"type": "REACHING_DEF"
+},{
+"source": 68719476747,
+"target": 30064771079,
+"type": "REACHING_DEF"
+},{
+"source": 68719476747,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 90194313220,
+"target": 30064771081,
+"type": "REACHING_DEF"
+},{
+"source": 90194313221,
+"target": 141733920769,
+"type": "REACHING_DEF"
+},{
+"source": 68719476744,
+"target": 30064771078,
+"type": "REACHING_DEF"
+},{
+"source": 68719476744,
+"target": 124554051585,
+"type": "REACHING_DEF"
+},{
+"source": 90194313219,
+"target": 30064771078,
+"type": "REACHING_DEF"
+}
+]
+}

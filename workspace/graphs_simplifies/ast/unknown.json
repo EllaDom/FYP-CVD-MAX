@@ -1,0 +1,111 @@
+{
+  "method": "fgets",
+  "id": 107374182410,
+  "nodes": [
+    {
+      "id": 107374182410,
+      "label": "METHOD",
+      "code": "<empty>",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 111669149707,
+      "label": "METHOD_PARAMETER_IN",
+      "code": "p1",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 111669149708,
+      "label": "METHOD_PARAMETER_IN",
+      "code": "p2",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 111669149709,
+      "label": "METHOD_PARAMETER_IN",
+      "code": "p3",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 25769803786,
+      "label": "BLOCK",
+      "code": "<empty>",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 124554051594,
+      "label": "METHOD_RETURN",
+      "code": "RET",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 115964117003,
+      "label": "METHOD_PARAMETER_OUT",
+      "code": "p1",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 115964117004,
+      "label": "METHOD_PARAMETER_OUT",
+      "code": "p2",
+      "line": -1,
+      "column": -1
+    },
+    {
+      "id": 115964117005,
+      "label": "METHOD_PARAMETER_OUT",
+      "code": "p3",
+      "line": -1,
+      "column": -1
+    }
+  ],
+  "edges": [
+    {
+      "source": 107374182410,
+      "target": 111669149707,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 25769803786,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 115964117003,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 111669149708,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 124554051594,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 115964117004,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 111669149709,
+      "type": "AST"
+    },
+    {
+      "source": 107374182410,
+      "target": 115964117005,
+      "type": "AST"
+    }
+  ]
+}

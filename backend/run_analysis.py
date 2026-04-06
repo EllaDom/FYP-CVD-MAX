@@ -4,7 +4,7 @@ import shutil
 
 BASE_DIR = os.path.abspath("workspace")
 
-INPUT_C = os.path.join(BASE_DIR, "input", "user_code.c")
+INPUT_C = os.path.join(BASE_DIR, "input", "1.c")
 CPG_PATH = os.path.join(BASE_DIR, "cpg", "code.cpg.bin")
 
 # ✅ SINGLE SCRIPT

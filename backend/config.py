@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # -----------------------------
 # DIRECTORIES
 # -----------------------------
-SRC_FILE = BASE_DIR / "workspace" / "input" / "user_code.c"
+SRC_FILE = BASE_DIR / "workspace" / "input" / "1.c"
 
 OUT_DIR = BASE_DIR / "fuzzing" / "executables"
 

@@ -1,9 +1,9 @@
 {
-"method": "printf",
-"id": 107374182403,
+"method": "fgets",
+"id": 107374182410,
 "nodes": [
 {
-"id": 25769803779,
+"id": 25769803786,
 "label": "BLOCK",
 "code": "<empty>",
 "line": -1,

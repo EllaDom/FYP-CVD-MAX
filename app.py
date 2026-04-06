@@ -4,6 +4,8 @@ from backend.graph_loader import load_graph
 import networkx as nx
 import matplotlib.pyplot as plt
 from backend.compile_runtime import run_compile_pipeline
+from backend.simplifier import run_simplification
+from backend.dynamic_fuzzer import run_dynamic_analysis
 
 st.set_page_config(page_title="CVD-MAX", layout="wide")
 
@@ -80,7 +82,7 @@ with col2:
     st.download_button(
         "Download .c",
         data=st.session_state.code,
-        file_name="user_code.c",
+        file_name="1.c",
         mime="text/plain"
     )
 
@@ -90,13 +92,15 @@ if check:
     if st.session_state.code.strip() == "":
         st.error("Please enter code first.")
     else:
-        with open("workspace/input/user_code.c", "w") as f:
+        with open("workspace/input/1.c", "w") as f:
             f.write(st.session_state.code)
 
         with st.spinner("Running analysis..."):
             try:
                 run_joern_pipeline()
                 run_compile_pipeline()
+                run_simplification()
+                run_dynamic_analysis()
                 st.session_state.analysis_done = True
                 st.session_state.saved = True
             except Exception as e:

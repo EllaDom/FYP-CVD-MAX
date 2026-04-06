@@ -1,0 +1,23 @@
+[
+  {
+    "idx": 1,
+    "total_runs": 70,
+    "crash_count": 0,
+    "exit_nonzero_count": 0,
+    "asan_total": 0,
+    "ubsan_total": 0,
+    "timeout_count": 0,
+    "avg_exec_time": 0.068911,
+    "unique_exit_codes": 2,
+    "path_variability": 2,
+    "unique_outputs": 51,
+    "time_variance": 0.00018596,
+    "input_sensitivity": 0,
+    "max_stderr_len": 183,
+    "error_type_diversity": 0,
+    "rare_behavior_ratio": 0.0,
+    "crash_rate": 0.0,
+    "asan_rate": 0.0,
+    "ubsan_rate": 0.0
+  }
+]

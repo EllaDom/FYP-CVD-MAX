@@ -2,9 +2,6 @@ import subprocess
 from pathlib import Path
 from backend.config import OUT_DIR, SRC_FILE, LOG_DIR, ERR_DIR, TEST_INPUT
 
-# -----------------------------
-# DIRECTORIES
-# -----------------------------
 
 
 # -----------------------------

@@ -1,0 +1,14 @@
+{
+  "method": "fgets",
+  "id": 107374182410,
+  "nodes": [
+    {
+      "id": 25769803786,
+      "label": "BLOCK",
+      "code": "<empty>",
+      "line": -1,
+      "column": -1
+    }
+  ],
+  "edges": []
+}

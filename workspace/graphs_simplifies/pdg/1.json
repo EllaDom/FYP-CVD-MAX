@@ -1,0 +1,43 @@
+{
+  "method": "main",
+  "id": 107374182402,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "BLOCK",
+      "code": "{     char buf[1024];     fgets(buf, sizeof(buf), stdin);     target(0);     return 0; }",
+      "line": 10
+    },
+    {
+      "id": 1,
+      "label": "CALL|IDENTIFIER|CALL|IDENTIFIER|LITERAL",
+      "code": "buf[1024] <SEP> buf <SEP> buf[1024] <SEP> char[1024] <SEP> 1024",
+      "line": 11
+    },
+    {
+      "id": 2,
+      "label": "CALL|IDENTIFIER|CALL|IDENTIFIER|IDENTIFIER",
+      "code": "fgets(buf, sizeof(buf), stdin) <SEP> buf <SEP> sizeof(buf) <SEP> <unknown> stdin <SEP> buf",
+      "line": 12
+    },
+    {
+      "id": 3,
+      "label": "CALL|LITERAL",
+      "code": "target(0) <SEP> 0",
+      "line": 13
+    },
+    {
+      "id": 4,
+      "label": "RETURN|LITERAL",
+      "code": "return 0; <SEP> 0",
+      "line": 14
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "REACHING_DEF"
+    }
+  ]
+}
